@@ -1,0 +1,43 @@
+.left-form{
+    -fx-background-color: linear-gradient(to bottom right, #09baef, #5f4ed0);
+    -fx-border-color: #000;
+    -fx-border-width: .4px 0px .4px .4px;
+}
+
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.close:hover{
+    -fx-background-color: #de1b1b;
+}
+
+.textfield{
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 4px;
+    -fx-border-color: #000;
+    -fx-border-width: .4px;
+    -fx-border-radius: 4px;
+    -fx-font-size: 13px;
+    -fx-font-family: "Arial";
+}
+
+.textfield:focused{
+    -fx-background-color: #fff;
+    -fx-border-color: linear-gradient(to bottom right, #09baef, #5f4ed0);
+    -fx-border-width: 8px;
+}
+
+.login-button{
+    -fx-background-color: linear-gradient(to bottom, #4547b5, #0c12a8);
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor:hand;
+}
+
+.login-button:hover{
+    -fx-background-color: linear-gradient(to bottom, #21a7ae, #368981);
+}
